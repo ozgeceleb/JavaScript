@@ -1,0 +1,1 @@
+let web =['HTML','CSS','React','Python','JS']
