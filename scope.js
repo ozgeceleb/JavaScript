@@ -127,3 +127,37 @@ for (const user in users) {
 
 //Set your name in the object without modifiyng the original users object
 
+users.Yourname= {name :"Ozge"};
+console.log(users)
+
+//Get all the values of users object
+
+console.log(Object.values(users))
+
+//Use the countries object to print a country name,capital ,populations and languages
+const countries = {
+    Turkey: {
+      countryName: 'Turkey',
+      capital: 'Ankara',
+      populations: 80.000,
+      languages: "Turkish"
+    },
+    England: {
+        countryName: 'England',
+        capital: 'London',
+        populations: 30.000,
+        languages: "English"
+    
+    },
+    Germany: {
+        countryName: 'Germany',
+        capital: 'Berlin',
+        populations: 50.000,
+        languages: "German"
+        
+        }}
+
+for (let[key, value] of Object.entries(countries)){
+    console.log(key,value)
+}
+
